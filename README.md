@@ -9,15 +9,15 @@ The dataset is from UCI machine learning repository. All feature values are reco
 Class distribution: 357 benign, 212 malignant.
 
 Data Source Link: https://archive.ics.uci.edu/ml/machine-learning-databases/breast-cancer-wisconsin/wdbc.data 
+
 Description: https://archive.ics.uci.edu/ml/machine-learning-databases/breast-cancerwisconsin/wdbc.names 
 
 
-## Uber level approach
+## Approach
 - Some initital EDA and anomaly detection checks are performed
 - Data is standardized using min max scaler, regularization was also performed
 - Several classification models are tried with and without grid search and their results are noted. A holistic comparison is done to assess which models performed better
 - The following models were tried: KNN, Decision Tree, Logistic Regression
-![Alt text](/ProcessFlow.png)
 
 ## Results
 The modelling process involved exploration of dataset to check nulls, outliers and other erroneous details but none were found, the distributions were also checked.

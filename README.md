@@ -29,4 +29,4 @@ Using above specifications, both overfitting and underfitting was assessed and r
 
 Best results are obtained from Logistic regression model because they are able to generalize well and it not overfitting on train data.
 Also, recall is highest along with AUC for this model, which is a suitable fit for the problem at hand, where identification of
-M(positive outcome) holds higher importance than B(negative outcome)
+M(positive outcome) holds higher importance than B(negative outcome).
